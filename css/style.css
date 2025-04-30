@@ -1,0 +1,280 @@
+
+body{
+    
+    background-color: white;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    width: 100%;  
+    max-width: 100vw; 
+}
+
+h1{
+    font-weight: 500;
+   height: 200;
+   text-align: center;
+   padding: 0 80px 0 80px;
+}
+h2, h3, h4{
+    font-weight: 400;
+}
+
+header h2{
+    display: flex;
+    background-color: #0D552B;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    padding-left: 30px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+nav a{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: #0D552B;
+}
+
+section.titolo{
+    display: flex;
+    background-color: #0D552B;
+    color: #fff;
+    margin: 0;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 90px;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+.titolo img{
+    max-height: 421px;
+    object-fit: cover;
+}
+
+.titolo img{
+    height: 300px;
+    width: auto; 
+    display: block;
+}
+
+h1{
+    display: flex;
+    font-size: 96px;
+    justify-content: center;
+}
+
+main p{
+    padding: 0px 293px 0px 293px;
+}
+
+section.card {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(314px, 1fr));
+    gap: 16px;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 16px;
+    box-sizing: border-box;
+  }
+  
+  section.card div {
+    background-color: #0D552B;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 314px;
+    margin: 0 auto;
+  }
+  
+  section.card img {
+    width: 314px;
+    height: 314px;
+    object-fit: cover;
+    display: block;
+  }
+  
+  section.card p {
+    margin: 0;
+  }
+  
+  section.card a {
+    display: block;
+    padding: 12px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+  }
+section.card {
+    display: flex;
+    justify-content: start;
+    gap: 16px;
+    width: 100%;
+    max-width: 1280px;
+    box-sizing: border-box;
+  }
+  
+  section.card div {
+    background-color: #0D552B;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 314px;
+    margin: 0 auto;
+  }
+  
+  section.card img {
+    width: 314px;
+    height: 314px;
+    object-fit: cover;
+    display: block;
+  }
+  
+  section.card p {
+    margin: 0;
+  }
+  
+  section.card p a {
+    display: block;
+    padding: 12px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+  }
+.punti-dinteresse div, .cenni-su-flora-e-fauna div, .attivita-specifiche div, .informazioni-utili div{
+display: grid;
+grid-template-columns: 1fr 1fr;
+height: 200px;
+margin-top: 90px;
+margin-bottom: 90px;
+padding: 0%;
+
+}
+
+.punti-dinteresse h4, .cenni-su-flora-e-fauna h4, .attivita-specifiche h4, .informazioni-utili h4{
+  background-color: #0D552B;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.punti-dinteresse img, .cenni-su-flora-e-fauna img, .attivita-specifiche img, .informazioni-utili img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.evidenziato {
+    font-weight: bold;
+    color: #0D552B;
+  }
+.italic {
+    font-style: italic;
+}  
+
+.info-parchi p{
+    font-size: 48px;
+    margin: 90px;
+    color: #0D552B;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Jost', sans-serif;
+    }
+.parchi {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+    
+  }
+  .parco-link {
+    text-decoration: none;
+    display: block;
+  }
+
+  .parchi section p{
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 900px 20px 50px;
+  }
+  
+  .parchi div {
+    display: flex;
+    width: 100%;
+  }
+  
+  .parchi h2 {
+    width: 50%;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    text-align: center;
+    color: #0D552B;
+    font-weight: bold;
+    font-family: 'Jost', sans-serif;
+  }
+  
+  .parchi img {
+    width: 50%;
+    height: 355px;
+    object-fit: cover;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+footer{
+    display: flex;
+    background-color: #0D552B;
+    color: #fff;
+    flex-direction: column;
+    padding-left: 80px;
+    padding-top: 20px;
+    margin-top: 90px;
+}
+
+@media (max-width: 800px){
+    main p, .titolo h1, .titolo h2{
+        padding: 0px 20px 0px 20px; 
+    }
+
+    .punti-dinteresse div, .cenni-su-flora-e-fauna div, .attivita-specifiche div, .informazioni-utili div{
+        flex-direction: column-reverse;
+    }
+    .parchi section p{
+        padding: 20px 50px 20px 50px
+    }
+    .parchi div{
+        flex-direction: column;
+    }
+    .parchi img{
+        width: 100%;
+        object-fit: cover;
+        margin: 0%;
+        padding: 0%;
+    }
+    .parchi h2{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-left: 0%;
+    }
+}
